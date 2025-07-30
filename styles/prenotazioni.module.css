@@ -1,0 +1,100 @@
+.main {
+    grid-row-start: 2;
+    display: grid;
+    text-align: start;
+    grid-template-rows: 40px 1fr 1fr;
+    width: 100%;
+    max-width: 600px;
+    gap: 12px;
+    transition: all .4s ease-in-out;
+}
+
+.main > h1 {
+    grid-row-start: 1;
+    width: 100%;
+    text-align: start;
+    transition: all .4s ease-in-out;
+}
+
+.main > .mainContent {
+    grid-row-start: 2;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.tabContainer {
+    width: 100%;
+    min-height: 0;
+    height: auto;
+    max-height: 4.8rem;
+    border: 1px solid var(--foreground);
+    box-sizing: border-box;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: all .4s ease-in-out;
+}
+
+.tabContainer.isopen {
+    max-height: 280px;
+    padding-bottom: 16px;
+}
+/*.tabContainer.newBookingsContainer.isopen {
+    transform: translateY(calc(-280px + 4.8rem));
+}*/
+
+.tabEvent {
+    width: 100% !important;
+    justify-content: start !important;
+    position: relative !important;
+    border-radius: 0 !important;
+}
+
+.tabEvent > .downArrow {
+    position: absolute;
+    right: 22px;
+    transition: all .2s ease-in-out;
+}
+
+.downArrow.rotateArrow {
+    transform: rotate(-180deg);
+}
+
+.tabContent {
+    width: 100%;
+    height: 100%;
+    overflow: hidden scroll;
+}
+
+.tabContent > table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: auto;
+}
+
+.tableRow {
+
+}
+
+.tabContent > table > thead > tr > th,
+.tabContent > table > tbody > tr > td{
+    padding: 8px;
+    text-align: start;
+}
+
+.tableRow > .idCell {
+    text-align: end;
+}
+
+.bookingItem > td > button > * {
+    transition: all .3s ease-in-out;
+}
+.bookingItem > td > button > *:hover {
+    color: var(--error) !important;
+    transform: 
+        scale(1.1)
+        rotate(5deg);
+}

@@ -1,0 +1,124 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  grid-row-start: 2;
+  width: 100%;
+  height: 100%;
+}
+
+.main > form {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.main > form > h1 {
+    text-align: center;
+}
+
+.main > form > .wizardContainer {
+    width: 100%;
+    height: 100%;
+    max-width: 460px;
+    gap: 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px 1px var(--box-shadow);
+    border-radius: 2.5rem;
+    display: grid;
+    grid-template-rows: 1fr 60px;
+    position: relative;
+}
+
+.wizardContent {
+    display: flex;
+    gap: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    grid-row-start: 1;
+    transition: all .4s ease-in-out;
+    max-height: 100%;
+    min-height: 0;
+}
+
+.navbar {
+    grid-row-start: 2;
+    display: grid;
+    grid-template-columns: 25% 1fr 25%;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    padding: 1rem;
+}
+
+.navbar > .navBtn {
+    padding: .9rem 2rem;
+    height: auto;
+}
+
+.step {
+    display: grid;
+    grid-template-rows: 24px 1fr;
+    min-width: 0;
+    padding: 2rem;
+    align-items: center;
+    max-height: 100%;
+    min-height: 0;
+    overflow: hidden;
+    gap: 10px;
+}
+.step > h2 {
+    text-align: center;
+    width: 100%;
+    grid-row-start: 1;
+    display: block;
+    font-size: var(--font-bigText);
+}
+
+.step.datePickerContainer {
+    grid-template-rows: 24px 60px 1fr;
+}
+.step.datePickerContainer > .calendar {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    grid-row-start: 2;
+}
+
+
+@media (max-width: 600px) {
+    .main > form {
+        gap: 0;
+    }
+    .main > form > h1 {
+        display: none;
+    }
+    .main > form > .wizardContainer {
+        grid-template-rows: 1fr 40px;
+        box-shadow: none;
+    }
+    .step {
+        padding: 0;
+        grid-template-rows: 18px 1fr;
+        gap: 6px;
+    }
+    .schedules {
+        grid-template-columns: 1fr 1fr 1fr !important;
+    }
+
+    textarea.note {
+        height: auto !important;
+    }
+}

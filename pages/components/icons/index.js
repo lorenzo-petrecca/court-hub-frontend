@@ -1,0 +1,1 @@
+export { default as CookieColored } from './cookie-colored';

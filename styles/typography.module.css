@@ -1,0 +1,117 @@
+.alignStart {
+  text-align: start !important;
+}
+.alignCenter {
+  text-align: center !important;
+}
+.alignEnd {
+  text-align: end !important;
+}
+
+.pageTitle {
+  font-size: var(--font-title1);
+  font-weight: 800;
+  color: var(--foreground);
+}
+.pageTitle2 {
+  font-size: var(--font-title2);
+  font-weight: 700;
+  color: var(--foreground);
+}
+.pageTitle3 {
+  font-size: var(--font-title3);
+  font-weight: 500;
+  color: var(--foreground);
+}
+.pageTitle4 {
+  font-size: var(--font-title4);
+  font-weight: 400;
+  color: var(--foreground);
+}
+
+
+.bigger {
+  font-size: var(--font-biggerText);
+  font-weight: 600;
+  color: var(--foreground);
+}
+.big {
+  font-size: var(--font-bigText);
+  font-weight: 500;
+  color: var(--foreground);
+}
+.medium {
+  font-size: var(--font-mediumText);
+  font-weight: 400;
+  color: var(--foreground); 
+}
+.normal {
+  font-size: var(--font-normalText);
+  font-weight: 400;
+  color: var(--foreground);
+}
+.small {
+  font-size: var(--font-smallText);
+  font-weight: 300;
+  color: var(--foreground);
+}
+.smaller {
+  font-size: var(--font-smallerText);
+  font-weight: 200;
+  color: var(--foreground);
+}
+
+.w9 {
+  font-weight: 900;
+}
+.w8 {
+  font-weight: 800;
+}
+.w7 {
+  font-weight: 700;
+}
+.w6 {
+  font-weight: 600;
+}
+.w5 {
+  font-weight: 500;
+}
+.w4 {
+  font-weight: 400;
+}
+.w3 {
+  font-weight: 300;
+}
+.w2 {
+  font-weight: 200;
+}
+.w1 {
+  font-weight: 100;
+}
+
+.thin {
+  font-weight: 100;
+}
+.light {
+  font-weight: 300;
+}
+.regular {
+  font-weight: 400;
+}
+.semibold {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}
+.black {
+  font-weight: 900;
+}
+
+
+.italic {
+  font-style: italic;
+}
+.normal {
+  font-style: normal;
+}

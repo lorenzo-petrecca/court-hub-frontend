@@ -1,0 +1,35 @@
+.main > form {
+    gap: 10px !important;
+}
+
+.responsiveRow {
+    flex-direction: column !important;
+    width: 100%;
+    align-items: start !important;
+    text-align: start !important;
+    gap: 4px !important;
+}
+
+.responsiveRow > input {
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid var(--disabled) !important;
+    padding: 8px 10px !important;
+}
+
+.responsiveRow > input:focus {
+    border-bottom: 1px solid var(--color-hover) !important;
+}
+
+.responsiveRow > input:focus ~ button > * {
+    color: var(--color-hover);
+}
+
+.deleteIcon,
+.logoutIcon {
+    transition: inherit;
+}
+
+.iconButton:hover > .deleteIcon {
+    color: var(--error) !important;
+}
