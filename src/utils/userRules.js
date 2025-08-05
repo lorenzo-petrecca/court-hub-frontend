@@ -1,4 +1,4 @@
-import { routes } from '../utils/routes';
+import { routes } from "./routes";
 
 export default {
     password: {

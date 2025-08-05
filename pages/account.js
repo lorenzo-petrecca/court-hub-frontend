@@ -1,8 +1,8 @@
-import { requireAuthentication } from './utils/auth';
-import { api, routes } from './utils/routes';
+import { requireAuthentication } from '@/src/utils/auth';
+import { api, routes } from '@/src/utils/routes';
 import { useState } from 'react';
 import { useRouter } from 'next/router';
-import rules from "./utils/userRules";
+import rules from "@/src/utils/userRules";
 
 import { FiEye } from "react-icons/fi";
 import { FiEyeOff } from "react-icons/fi";

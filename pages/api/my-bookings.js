@@ -1,5 +1,5 @@
 import * as cookie from 'cookie';
-import { api } from '../utils/routes'
+import { api } from '@/src/utils/routes';
 import { ApiError } from 'next/dist/server/api-utils';
 
 export default async function handler (req, res) {

@@ -5,8 +5,8 @@ import styles from "@/styles/login.module.css"
 import typo from "@/styles/typography.module.css"
 import buttons from "@/styles/buttons.module.css"
 import Link from "next/link";
-import { routes, api } from "./utils/routes";
-import rules from "./utils/userRules";
+import { routes, api } from "@/src/utils/routes";
+import rules from "@/src/utils/userRules";
 
 import { FiEye } from "react-icons/fi";
 import { FiEyeOff } from "react-icons/fi";

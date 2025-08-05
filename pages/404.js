@@ -1,6 +1,6 @@
 import typo from '@/styles/typography.module.css';
 import buttons from '@/styles/buttons.module.css';
-import { routes } from './utils/routes';
+import { routes } from '@/src/utils/routes';
 
 export default function Custom404 () {
     return (

@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import { routes } from "./utils/routes";
+import { routes } from "@/src/utils/routes";
 
 
 import styles from "@/styles/Home.module.css";

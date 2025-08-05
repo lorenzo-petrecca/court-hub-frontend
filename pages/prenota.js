@@ -1,5 +1,5 @@
 import { use, useState, useEffect } from 'react';
-import { requireAuthentication } from './utils/auth';
+import { requireAuthentication } from '@/src/utils/auth';
 import { useRouter } from 'next/router';
 import DatePicker from 'react-datepicker';
 import CourtSelect from './components/courtSelect';
@@ -8,7 +8,7 @@ import Review from './components/review';
 import { registerLocale, setDefaultLocale } from  "react-datepicker";
 import 'react-datepicker/dist/react-datepicker.css';
 import { format } from 'date-fns';
-import { routes, api } from './utils/routes';
+import { routes, api } from '@/src/utils/routes';
 import Head from "next/head";
 import { it } from 'date-fns/locale/it';
 registerLocale ( 'it' ,  it ) 

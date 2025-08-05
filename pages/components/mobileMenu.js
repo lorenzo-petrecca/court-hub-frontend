@@ -1,4 +1,4 @@
-import { MenuList } from "../utils/app-menu";
+import { MenuList } from "@/src/utils/app-menu";
 import Link from "next/link";
 import { useState } from "react";
 

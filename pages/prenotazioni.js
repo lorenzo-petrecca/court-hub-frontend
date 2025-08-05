@@ -1,5 +1,5 @@
 import { useEffect, useState} from "react";
-import { requireAuthentication } from "./utils/auth";
+import { requireAuthentication } from "@/src/utils/auth";
 import { format, parse, addMinutes, set } from "date-fns";
 import Head from "next/head";
 import ConfirmDialog from "./components/confirmDialog";
@@ -8,7 +8,7 @@ import buttons from '@/styles/buttons.module.css';
 import styles from '@/styles/prenotazioni.module.css';
 
 import { IoIosArrowDown } from "react-icons/io";
-import { routes } from "./utils/routes";
+import { routes } from "@/src/utils/routes";
 
 import { FaTrashCan } from "react-icons/fa6";
 import { useRouter } from "next/router";

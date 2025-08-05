@@ -1,6 +1,6 @@
 // pages/api/signup.js
 import * as cookie from 'cookie';
-import { api } from '../utils/routes';
+import { api } from '@/src/utils/routes';
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {

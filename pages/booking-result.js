@@ -1,6 +1,6 @@
 import { useState, useEffect, use } from "react";
 import { useRouter } from "next/router";
-import { routes } from "./utils/routes";
+import { routes } from "@/src/utils/routes";
 import Head from "next/head";
 
 import buttons from '@/styles/buttons.module.css';

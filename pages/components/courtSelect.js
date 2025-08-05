@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { api } from "../utils/routes";
+import { api } from '@/src/utils/routes';
 import Select from 'react-select';
 
 export default function CourtSelect({ selectedCourt, onChange }) {

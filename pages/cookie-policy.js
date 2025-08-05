@@ -3,8 +3,8 @@ import NoteTab from "./components/note-tab";
 import styles from '@/styles/regolamento.module.css';
 import typo from '@/styles/typography.module.css';
 import buttons from '@/styles/buttons.module.css';
-import { CookieColored } from "./components/icons";
-import { routes } from "./utils/routes";
+import { CookieColored } from "@/src/icons";
+import { routes } from "@/src/utils/routes";
 import Contatti from "./components/contatti";
 
 export default function CookiePolicy () {

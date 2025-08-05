@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { MenuList } from "../utils/app-menu";
+import { MenuList } from "@/src/utils/app-menu";
 import style from "@/styles/menu.module.css"
 import typo from "@/styles/typography.module.css"
 
