@@ -15,7 +15,7 @@ import typo from "@/styles/typography.module.css";
 import buttons from "@/styles/buttons.module.css";
 
 import Head from "next/head";
-import ConfirmDialog from './components/confirmDialog';
+import ConfirmDialog from '@/src/components/confirmDialog';
 
 export default function Account({ user }) {
   const router = useRouter();

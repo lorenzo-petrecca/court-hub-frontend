@@ -2,7 +2,7 @@ import { useEffect, useState} from "react";
 import { requireAuthentication } from "@/src/utils/auth";
 import { format, parse, addMinutes, set } from "date-fns";
 import Head from "next/head";
-import ConfirmDialog from "./components/confirmDialog";
+import ConfirmDialog from "@/src/components/confirmDialog";
 import typo from '@/styles/typography.module.css';
 import buttons from '@/styles/buttons.module.css';
 import styles from '@/styles/prenotazioni.module.css';

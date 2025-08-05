@@ -1,5 +1,5 @@
 import Head from "next/head";
-import NoteTab from "./components/note-tab";
+import NoteTab from "@/src/components/note-tab";
 import styles from '@/styles/regolamento.module.css';
 import typo from '@/styles/typography.module.css';
 
