@@ -21,6 +21,7 @@ export const routes = {
     regolamento: '/regolamento',
     deleteAccountApi: '/api/delete-account',
     deleteBookingAPI: '/api/delete-booking',
+    comingSoon: '/coming-soon',
 };
 
 export const api = {

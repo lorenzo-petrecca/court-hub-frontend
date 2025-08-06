@@ -8,6 +8,18 @@
   text-align: end !important;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
 .pageTitle {
   font-size: var(--font-title1);
   font-weight: 800;
